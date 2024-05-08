@@ -1,0 +1,14 @@
+{
+  "name": "natours-project",
+  "version": "1.0.0",
+  "description": "Learning Nodejs and Mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Muhammad Abbas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
