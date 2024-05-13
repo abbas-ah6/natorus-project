@@ -4,11 +4,12 @@
   "description": "Learning Nodejs and Mongodb",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
   "author": "Muhammad Abbas",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "morgan": "^1.10.0"
   }

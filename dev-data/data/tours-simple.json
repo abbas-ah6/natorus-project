@@ -134,8 +134,5 @@
     "images": ["tour-9-1.jpg", "tour-9-2.jpg", "tour-9-3.jpg"],
     "startDates": ["2021-12-16,10:00", "2022-01-16,10:00", "2022-12-12,10:00"]
   },
-  { "id": 9, "name": "First New Tour", "duration": 10, "difficulty": "easy" },
-  { "id": 10, "name": 1, "duration": 10, "difficulty": "easy" },
-  { "id": 11, "name": 1, "duration": 10, "difficulty": "easy" },
-  { "id": 12, "name": 1, "duration": 10, "difficulty": "easy" }
+  { "id": 9, "name": "Kalam Tour", "price": "2000", "difficulty": "easy" }
 ]
