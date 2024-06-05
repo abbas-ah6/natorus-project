@@ -8,17 +8,14 @@ const app = express();
 
 // Third party middleware
 app.use(express.static(`${__dirname}/public`));
-
-
 if (process.env.NODE_ENV === 'development') {
   app.use(
     morgan('dev', {
       stream: fs.createWriteStream('./access.log', { flags: 'a' }),
     })
   );
+  app.use(morgan('dev'));
 }
-
-app.use(morgan('dev'));
 
 // Middleware for accessing request methods body => req.body
 app.use(express.json());
