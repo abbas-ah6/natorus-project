@@ -4,8 +4,8 @@
   "description": "Learning Nodejs and Mongodb",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js"
+    "start": "node init && nodemon server.js",
+    "start:prod": "node init && NODE_ENV=production nodemon server.js"
   },
   "author": "Muhammad Abbas",
   "license": "ISC",
